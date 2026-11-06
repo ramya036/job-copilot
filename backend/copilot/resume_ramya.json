@@ -1,0 +1,297 @@
+{
+  "name": "Ramya Sree Narra",
+  "headline": "Software Engineer",
+  "contact": {
+    "email": "rnarrasree@gmail.com",
+    "linkedin": "linkedin.com/in/ramyasreenarra",
+    "github": "github.com/ramya036",
+    "location": "Atlanta, GA"
+  },
+  "summary": "Software engineer with experience across distributed backend systems, full-stack web development and applied AI, including RAG systems and an AI agent for production incident analysis at Google.",
+  "skills": {
+    "Languages": [
+      "C",
+      "C++",
+      "Java",
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "SQL"
+    ],
+    "Web and backend": [
+      "React",
+      "Redux",
+      "Angular",
+      "HTML",
+      "CSS",
+      "Spring Boot",
+      "Spring Reactive",
+      "FastAPI",
+      "REST APIs",
+      "Microservices",
+      "Apache Kafka",
+      "Redis",
+      "MySQL",
+      "PostgreSQL",
+      "Elasticsearch"
+    ],
+    "Cloud and DevOps": [
+      "AWS",
+      "GCP",
+      "Docker",
+      "Jenkins",
+      "GitLab CI",
+      "CI/CD",
+      "Linux",
+      "Git",
+      "Bazel"
+    ],
+    "AI and ML": [
+      "LLMs",
+      "RAG",
+      "AI agents",
+      "LangChain",
+      "FAISS",
+      "Transformers",
+      "Hugging Face",
+      "PyTorch",
+      "TensorFlow",
+      "Keras",
+      "scikit-learn",
+      "OpenCV"
+    ]
+  },
+  "experience": [
+    {
+      "id": "google",
+      "company": "Google",
+      "title": "Software Engineering Intern",
+      "location": "Seattle, US",
+      "dates": "May 2026 - Aug 2026",
+      "tech": [
+        "GCP",
+        "AI agents",
+        "C++",
+        "Python",
+        "Bazel",
+        "CDPush",
+        "Protocol Buffers"
+      ],
+      "bullets": [
+        {
+          "id": "google-1",
+          "text": "Developed an AI-powered production investigation agent to automate incident analysis and debugging, reducing investigation time by 60% and streamlining root-cause analysis."
+        },
+        {
+          "id": "google-2",
+          "text": "Reduced SWAN policy update latency from 5 days to immediate rollouts by decoupling policy configurations from binary releases and integrating with CDPush, enabling zero-downtime updates across 130+ GCE zones."
+        },
+        {
+          "id": "google-3",
+          "text": "Proposed and developed a developer workflow tool to automate policy change summaries, reducing review time by ~80% and simplifying configuration review."
+        }
+      ]
+    },
+    {
+      "id": "gsu",
+      "company": "Georgia State University",
+      "title": "Graduate Research Assistant",
+      "location": "Atlanta, US",
+      "dates": "Jan 2025 - Present",
+      "tech": [
+        "RAG",
+        "LangChain",
+        "FastAPI",
+        "AWS",
+        "PostgreSQL",
+        "Python",
+        "PyTorch",
+        "Hugging Face",
+        "FAISS",
+        "Docker"
+      ],
+      "bullets": [
+        {
+          "id": "gsu-1",
+          "text": "Built a RAG-based clinical QA system using transformer embeddings and FAISS to retrieve relevant information from 120K+ records, improving retrieval relevance by 45% over keyword search."
+        },
+        {
+          "id": "gsu-2",
+          "text": "Developed NER, relation extraction, and summarization pipelines using BERT and transformers to identify clinical entities, improving F1-score from 0.72 to 0.89 and reducing document review time by 60%."
+        }
+      ]
+    },
+    {
+      "id": "skillz",
+      "company": "Skillz",
+      "title": "Software Engineering Intern",
+      "location": "Nevada, US",
+      "dates": "Jun 2025 - Aug 2025",
+      "tech": [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "React Native",
+        "Redux",
+        "Redis",
+        "Postman"
+      ],
+      "bullets": [
+        {
+          "id": "skillz-1",
+          "text": "Designed and launched configurable entry limits and a live events form across iOS, Android, and Web, driving 26K+ player entries, reducing developer setup time by 30%, and increasing monetized events by 10%."
+        },
+        {
+          "id": "skillz-2",
+          "text": "Deployed scalable Spring Boot REST APIs with Redis caching to support high-concurrency traffic, achieving ~200ms average latency and reliable data retrieval."
+        }
+      ]
+    },
+    {
+      "id": "verizon",
+      "company": "Verizon",
+      "title": "Software Development Engineer II",
+      "location": "Hyderabad, India",
+      "dates": "Jul 2022 - Aug 2024",
+      "tech": [
+        "Java",
+        "Spring Boot",
+        "Spring Reactive",
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Kafka",
+        "MySQL",
+        "Kibana",
+        "REST APIs"
+      ],
+      "bullets": [
+        {
+          "id": "verizon-1",
+          "text": "Architected fault-tolerant, distributed event-driven systems using Kafka between EPC and Common Catalog repositories, achieving 99% message delivery accuracy across high-throughput telecom data pipelines."
+        },
+        {
+          "id": "verizon-2",
+          "text": "Designed a large-scale observability platform integrated with Elasticsearch for centralized log aggregation and real-time search, eliminating manual Kibana checks and saving ~4 hours per debugging cycle."
+        },
+        {
+          "id": "verizon-3",
+          "text": "Led end-to-end development of a drag-and-drop web framework using React (Hooks, Context API) and Redux, empowering non-technical users to build front-end pages and reducing coding time by 70%."
+        }
+      ]
+    },
+    {
+      "id": "arcesium",
+      "company": "Arcesium",
+      "title": "Software Reliability Engineer Intern",
+      "location": "Hyderabad, India",
+      "dates": "Feb 2022 - Jun 2022",
+      "tech": [
+        "Python",
+        "GitLab CI",
+        "Docker"
+      ],
+      "bullets": [
+        {
+          "id": "arcesium-1",
+          "text": "Built CI/CD pipelines using Python and GitLab CI with Cerberus scripts to detect dependency cycles and format errors, eliminating manual merge reviews and saving ~10 hours/week in engineering overhead."
+        },
+        {
+          "id": "arcesium-2",
+          "text": "Containerized Python microservices with Docker for environment consistency and reproducibility, reducing setup time by 50%."
+        }
+      ]
+    },
+    {
+      "id": "honeywell",
+      "company": "Honeywell",
+      "title": "Software Engineer Intern",
+      "location": "Hyderabad, India",
+      "dates": "Apr 2021 - Jun 2021",
+      "tech": [
+        "JavaScript"
+      ],
+      "bullets": [
+        {
+          "id": "honeywell-1",
+          "text": "Refactored legacy components and added cross-browser support in the BMS application, cutting browser-specific issues by 40% and enabling seamless use on Chrome and IE."
+        },
+        {
+          "id": "honeywell-2",
+          "text": "Participated in code reviews and gave feedback to improve code quality, decreasing post-merge defects by ~20%."
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "askdb",
+      "name": "AskDB",
+      "subtitle": "Natural Language to SQL",
+      "tech": [
+        "Python",
+        "RAG",
+        "FAISS",
+        "LLMs",
+        "SQL",
+        "Gemini API",
+        "FastAPI"
+      ],
+      "bullets": [
+        {
+          "id": "askdb-1",
+          "text": "Built an AI platform that converts natural-language clinical questions into SQL using FAISS vector search over the schema, RAG and the Gemini API, with read-only execution guardrails and a self-correcting retry on SQL errors."
+        }
+      ]
+    },
+    {
+      "id": "mealmate",
+      "name": "MealMate",
+      "subtitle": "Food Ordering and Payment Processing",
+      "tech": [
+        "React",
+        "Spring Boot",
+        "MySQL",
+        "REST APIs",
+        "Stripe API",
+        "Docker"
+      ],
+      "bullets": [
+        {
+          "id": "mealmate-1",
+          "text": "Engineered a full-stack ordering platform with JWT authentication, role-based access control and Stripe payments confirmed by signed webhooks, with server-side pricing and integration tests."
+        }
+      ]
+    },
+    {
+      "id": "objdet",
+      "name": "Object Detection",
+      "subtitle": "Computer Vision",
+      "tech": [
+        "Python",
+        "OpenCV",
+        "Deep learning"
+      ],
+      "bullets": [
+        {
+          "id": "objdet-1",
+          "text": "Built real-time object detection for images and webcam video with SSD MobileNet v3 on OpenCV, fixing a COCO label-mapping bug and adding a JSON-output CLI and tests."
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Georgia State University",
+      "degree": "Master of Science in Computer Science",
+      "dates": "Aug 2024 - Dec 2026",
+      "gpa": "3.8/4"
+    },
+    {
+      "school": "Jawaharlal Nehru Technological University",
+      "degree": "Bachelor of Computer Science",
+      "dates": "Jul 2019 - May 2022",
+      "gpa": "3.8/4"
+    }
+  ]
+}
